@@ -12,7 +12,7 @@ email VARCHAR(100) NOT NULL,
 phoneNumber VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE DishwasherSchedule (
+CREATE TABLE DishwasherScheduler (
 id INT AUTO_INCREMENT PRIMARY KEY,
 chargedate DATE NOT NULL,
 filler INT NOT NULL,
